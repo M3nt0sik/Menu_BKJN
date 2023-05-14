@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Menu_BKJN"
         mc:Ignorable="d"
         Title="Witaj w budżetowych kanapakach Jarka Niechluja!" Height="350" Width="550">
-    <Grid Margin="20">
+    <Grid x:Name="mainWinow" Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>

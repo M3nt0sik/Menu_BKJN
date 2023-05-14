@@ -13,7 +13,7 @@ namespace Menu_BKJN
         public string[] Condiments = { "musztardo żółta", "musztarda brązowa", "musztarda miodowa", "majonez", "przyprawy", "sosfrancuski" };
         public string[] Bred = {"Ryżowe", "Białe", "Przenne", "Pumpernikiel", "Bułka" };
         public string description = "";
-        public string Price;
+        public string Price = "";
 
         public void Generate()
         {
