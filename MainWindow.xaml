@@ -5,8 +5,33 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Menu_BKJN"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+        Title="Witaj w budżetowych kanapakach Jarka Niechluja!" Height="350" Width="550">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Name="price0" Grid.Column="1" Margin="2,2,2,2" Grid.Row="0" TextWrapping="NoWrap" Text="TextBlock" FontSize="18" HorizontalAlignment="Center"/>
+        <TextBlock Name="price1" Grid.Column="1" Margin="2,2,2,2" Grid.Row="1" TextWrapping="NoWrap" Text="TextBlock" FontSize="18" HorizontalAlignment="Center"/>
+        <TextBlock Name="price2" Grid.Column="1" Margin="2,2,2,2" Grid.Row="2" TextWrapping="NoWrap" Text="TextBlock" FontSize="18" HorizontalAlignment="Center"/>
+        <TextBlock Name="price3" Grid.Column="1" Margin="2,2,2,2" Grid.Row="3" TextWrapping="NoWrap" Text="TextBlock" FontSize="18" HorizontalAlignment="Center"/>
+        <TextBlock Name="price4" Grid.Column="1" Margin="2,2,2,2" Grid.Row="4" TextWrapping="NoWrap" Text="TextBlock" FontSize="18" HorizontalAlignment="Center"/>
+        <TextBlock Name="price5" Grid.Column="1" Margin="2,2,2,2" Grid.Row="5" TextWrapping="NoWrap" Text="TextBlock" FontSize="18" HorizontalAlignment="Center"/>
+        <TextBlock Name="item0" Margin="2,2,2,2" Grid.Row="0" TextWrapping="NoWrap" Text="TextBlock" FontSize="18" HorizontalAlignment="Center"/>
+        <TextBlock Name="item1" Margin="2,2,2,2" Grid.Row="1" TextWrapping="NoWrap" Text="TextBlock" FontSize="18" HorizontalAlignment="Center"/>
+        <TextBlock Name="item2" Margin="2,2,2,2" Grid.Row="2" TextWrapping="NoWrap" Text="TextBlock" FontSize="18" HorizontalAlignment="Center"/>
+        <TextBlock Name="item3" Margin="2,2,2,2" Grid.Row="3" TextWrapping="NoWrap" Text="TextBlock" FontSize="18" HorizontalAlignment="Center"/>
+        <TextBlock Name="item4" Margin="2,2,2,2" Grid.Row="4" TextWrapping="NoWrap" Text="TextBlock" FontSize="18" HorizontalAlignment="Center"/>
+        <TextBlock Name="item5" Margin="2,2,2,2" Grid.Row="5" TextWrapping="NoWrap" Text="TextBlock" FontSize="18" HorizontalAlignment="Center"/>
+        <TextBlock Name="glacmole" Grid.Row="6" TextWrapping="NoWrap" Text="TextBlock" FontSize="18" HorizontalAlignment="Right" Grid.ColumnSpan="2" Margin="0,2,0,2" TextAlignment="Right" VerticalAlignment="Bottom"/>
     </Grid>
 </Window>
