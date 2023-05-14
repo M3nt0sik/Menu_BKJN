@@ -8,9 +8,9 @@ namespace Menu_BKJN
 {
     internal class MenuItem
     {
-        public Random random = new Random();
-        public string[] Proteins = { "Wolowina", "Salami", "Indyk", "Szynka", "Pastrami", "Tofu" };
-        public string[] Condiments = { "musztardo żółta", "musztarda brązowa", "musztarda miodowa", "majonez", "przyprawy", "sosfrancuski" };
+        static public Random random = new Random();
+        public string[] Proteins = { "Wolowina ", "Salami ", "Indyk ", "Szynka ", "Pastrami ", "Tofu " };
+        public string[] Condiments = { "Musztardo żółta ", "Musztarda brązowa ", "Musztarda miodowa ", "Majonez ", "Przyprawy", "Sos francuski " };
         public string[] Bred = {"Ryżowe", "Białe", "Przenne", "Pumpernikiel", "Bułka" };
         public string description = "";
         public string Price = "";
